@@ -17,4 +17,4 @@
 
 #### Refactor Project Repo & GitHub links: <br>
 [Repo](https://onomatopoetica.github.io/Lorem ipsum/) <br>
-[GitHub](https://github.com/onomatopoetica/Lorem ipsum)
+[GitHub](https://github.com/onomatopoetica/password-generator)
