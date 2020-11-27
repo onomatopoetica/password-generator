@@ -5,7 +5,7 @@
 
 ## Table of Contents
 1. [About the Project](#About-The-Project)
-1. [Project Status](#Project-Status)
+1. [Project Status](#Project-Status: Active)
 1. [Getting Started](#getting-started)
 
 # About the Project
