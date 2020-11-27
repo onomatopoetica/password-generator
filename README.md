@@ -5,14 +5,10 @@
 
 ## Table of Contents
 1. [About the Project](#About-The-Project)
-1. [Project Status](#project-status)
+1. [Project Status](#Project-Status)
 1. [Getting Started](#getting-started)
 
 # About the Project
-
-
-
-# Getting Started
 
 #### This was a password generator project for a DevOps manager at a financial institution. The project scope sought to provide an application which would generate strong, randomly selected passwords providing greater security for sensitive customer data. The application was to have a clean and polished user interface rendering responsively across a variety of devices. 
 
@@ -24,7 +20,7 @@
 
 #### The following is a screenshot of the password generator application and overview of its functionality: <br>
 
-#### Project Status: Active
+# Project Status: Active
 
 <br>
 <details>
