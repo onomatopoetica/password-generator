@@ -5,7 +5,7 @@
 
 ## Table of Contents
 1. [About the Project](#About-The-Project)
-1. [Project Status](#Project-Status: Active)
+1. [Project Status](#Project-Status)
 1. [Getting Started](#getting-started)
 
 # About the Project
@@ -20,9 +20,13 @@
 
 #### The following is a screenshot of the password generator application and overview of its functionality: <br>
 
-# Project Status: Active
+# Project Status
 
 <br>
+<details>
+    <summary>Project Status</summary>
+    jendotb@gmail.com
+</details>
 <details>
     <summary>Contact</summary>
     jendotb@gmail.com
