@@ -25,7 +25,7 @@
 <br>
 <details>
     <summary>Project Status</summary>
-    jendotb@gmail.com
+    Active
 </details>
 <details>
     <summary>Contact</summary>
