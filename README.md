@@ -34,12 +34,12 @@
 ##### Clone the repo: <br>
     git clone https://github.com/onomatopoetica/password-generator.git
 
-#### Project Links <br>
+#### Project Links
 [Repo Link](https://github.com/onomatopoetica/password-generator) <br>
 [GitHub Project Link](https://onomatopoetica.github.io/password-generator/)
 
 
-### Project Status
+#### Project Status
 <details>
     <summary>Project Status</summary>
     Active
