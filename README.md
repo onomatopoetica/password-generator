@@ -34,12 +34,12 @@
 ##### Clone the repo: <br>
     git clone https://github.com/onomatopoetica/password-generator.git
 
-#### Project Links
+### Project Links
 [Repo Link](https://github.com/onomatopoetica/password-generator) <br>
 [GitHub Project Link](https://onomatopoetica.github.io/password-generator/)
 
 
-#### Project Status
+### Project Status
 <details>
     <summary>Project Status</summary>
     Active
@@ -57,5 +57,5 @@
 [How To Style Images With Markdown Blog](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) <br>
 [W3Schools](https://www.w3schools.com/js/default.asp) <br>
 
-#### License
+### License
 ##### Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
