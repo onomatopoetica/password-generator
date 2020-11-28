@@ -3,6 +3,8 @@
 
 ## Password Generator Project 
 
+---
+
 ### Table of Contents
 1. [About the Project](#About-The-Project)
 1. [Demo](#Demo)
@@ -16,11 +18,11 @@
 #### This was a password generator project for a DevOps manager at a financial institution. The project scope sought to provide an application which would generate strong, randomly selected passwords providing greater security for sensitive customer data. The application was to have a clean and polished user interface rendering responsively across a variety of devices. 
 
 #### Completion of the acceptance criteria implemented the following:
-#####   - When "Generate Password" button is clicked, the user is prompted for password criteria. 
-#####   - When prompted for a the length of the password, the user is prompted to choose at least 8 and no more than 128 characters.
-#####   - When prompted for character types to be included in the password, the user is prompted to input whether to include lowercase, uppercase, numeric and/or special characters. 
-#####   - When the user answers each prompt, the input is validated wherein at least one character type is selected.
-#####   - When all prompts are answered, a password matching the selected criteria is generated and displayed in the application's UI.
+#####   • When "Generate Password" button is clicked, the user is prompted for password criteria. 
+#####   • When prompted for a the length of the password, the user is prompted to choose at least 8 and no more than 128 characters.
+#####   • When prompted for character types to be included in the password, the user is prompted to input whether to include lowercase, uppercase, numeric and/or special characters. 
+#####   • When the user answers each prompt, the input is validated wherein at least one character type is selected.
+#####   • When all prompts are answered, a password matching the selected criteria is generated and displayed in the application's UI.
 
 ### Demo
 
