@@ -6,7 +6,7 @@
 ### Table of Contents
 1. [About the Project](#About-The-Project)
 1. [Demo](#Demo)
-1. [Getting Started](#Getting-Started-Installation)
+1. [Getting Started](#Getting-Started - Installation)
 1. [Project Links](#Project-Links)
 1. [Project Status](#Project-Status)
 1. [License](#License)
