@@ -34,7 +34,7 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-// Password criteria variables
+// password criteria variables
 
 var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
@@ -43,24 +43,24 @@ var specialCharacters = ["!", "#", "$", "%", "&", '"', ",", "'", "(", ")", "*", 
 
 
 
-// Variable for user input
+// variable for user input
 
 function getUserInput() {
 
-  // Prompt/confirm password criteria 
+  // prompt password criteria 
 
   var passwordLength = parseInt(prompt("How many characters should the password have (choose a number between 8 and 128)?"));
 
   // If statement to direct user to enter a numeric value
 
 
-  // If Password length is not a number
+  // if a valid password length is not entered 
   if (!passwordLength) {
     alert("Please enter a numeric value!");
     // return;
   }
 
-  // Once numeric value is entered, must confirm it is within the specified criteria < 8 and > 128.
+  // once numeric value is entered, must confirm it is within the specified criteria < 8 and > 128.
 
   if ((passwordLength < 8) || (passwordLength > 128)) {
     alert("Password must be between 8 and 128 characters!");
@@ -70,25 +70,25 @@ function getUserInput() {
   // else if (PasswordLength > 8 && PasswordLength < 128) {
   //   return;
   // } 
-  // Prompt user to select criteria for password. 
+  // prompt user to select criteria for password. 
 
-  // Does the password require numbers?
+  // does the password require numbers?
 
   var confirmNumbers = confirm("Do you want the password to contain numbers?");
 
-  // Does the password uppercase letters?
+  // does the password uppercase letters?
 
   var confirmUpperCase = confirm("Do you want the password to contain uppercase letters?");
 
-  // Does the password lowercase letters?
+  // does the password lowercase letters?
 
   var confirmLowerCase = confirm("Do you want the password to contain lowercase letters?");
 
-  // Does the password special characters?
+  // does the password special characters?
 
   var confirmSpecialCharacters = confirm("Do you want the password to contain special characters?");
 
-  
+  // prompts user to select at least one of the criteria for password
 
   if (!confirmLowerCase && !confirmUpperCase && !confirmNumbers && !confirmSpecialCharacters) {
     alert("The password must contain at least one special, numeric, lowercase, or uppercase character!");
@@ -96,7 +96,7 @@ function getUserInput() {
 
   }
 
-  //Take user input to generate password
+  // combine user input to generate password
 
   var passwordCriteria = {
 
@@ -184,11 +184,6 @@ function generatePassword() {
 // console.log(criteria);
 
 
-
-
-
-
-
 // if (confirmNumbers) {
 //   for (var i = 0; i < 10; i++) {
 //   var num = Math.floor(Math.random() * 9) +  1;
@@ -196,7 +191,6 @@ function generatePassword() {
 //   console.log(num);
 //   }
 // }
-
 
 
   // console.log("length? ", promptLength)
