@@ -20,6 +20,8 @@
 
 #### The following is a screenshot of the password generator application and overview of its functionality: <br>
 
+<div class="video-container"><iframe src="https://drive.google.com/file/d/1BNrN-oLRPL98oDRX1_t5qfdTIfs5S-5p/preview" width="640" height="480"></iframe>
+
 ### Project Status
 <details>
     <summary>Project Status</summary>
@@ -29,12 +31,13 @@
     <summary>Contact</summary>
     jendotb@gmail.com
 </details>
-<br>
-
 
 #### Articles and sites which contributed toward the successful completion of this project are included below:
 
-[A Smarter Way To Learn JavaScript](http://www.asmarterwaytolearn.com/)  <br>
+
+[OWASP](https://owasp.org/www-community/password-special-characters) <br>
+[OWASP](https://owasp.org/www-community/password-special-characters) <br>
+[A Smarter Way To Learn JavaScript](http://www.asmarterwaytolearn.com/) <br>
 [JSHint](https://jshint.com/) <br>
 [How To Style Images With Markdown Blog](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) <br>
 [W3Schools](https://www.w3schools.com/js/default.asp) <br>
