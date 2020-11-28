@@ -22,6 +22,8 @@
 
 [Project Demo](https://drive.google.com/file/d/1xtw-7ligMoQPSHEXnpOM4gRbLzerBJbW/view?usp=sharing) demonstrates the web application's rendering and functionality on a on a mobile device. 
 
+<img src="assets/demo-screenshot.png" alt="password generator screenshot" title="screenshot" width="700" height="auto">
+
 ### Project Status
 <details>
     <summary>Project Status</summary>
