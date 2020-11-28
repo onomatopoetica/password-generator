@@ -20,7 +20,7 @@
 
 #### The following is a screenshot of the password generator application and overview of its functionality: <br>
 
-[Project Demo](https://drive.google.com/file/d/14TDXPKifnSKtAjrnSc5qoL7nWuqrn4__/preview)
+[Project Demo](https://drive.google.com/file/d/1xtw-7ligMoQPSHEXnpOM4gRbLzerBJbW/view?usp=sharing) demonstrates the web application's rendering and functionality on a on a mobile device. 
 
 ### Project Status
 <details>
