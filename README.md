@@ -34,8 +34,6 @@
 
 #### Articles and sites which contributed toward the successful completion of this project are included below:
 
-
-[OWASP](https://owasp.org/www-community/password-special-characters) <br>
 [OWASP](https://owasp.org/www-community/password-special-characters) <br>
 [A Smarter Way To Learn JavaScript](http://www.asmarterwaytolearn.com/) <br>
 [JSHint](https://jshint.com/) <br>
