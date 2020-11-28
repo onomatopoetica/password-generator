@@ -6,7 +6,7 @@
 ### Table of Contents
 1. [About the Project](#About-The-Project)
 1. [Demo](#Demo)
-1. [Getting Started](#Getting-Started - Installation)
+1. [Getting Started](#Getting-Started)
 1. [Project Links](#Project-Links)
 1. [Project Status](#Project-Status)
 1. [License](#License)
@@ -30,9 +30,9 @@
 
 <img src="assets/demo-screenshot.png" alt="password generator screenshot" title="screenshot" width="700" height="auto">
 
-### Getting Started - Installation  <br>
-##### Clone the repo: <br>
-    git clone https://github.com/onomatopoetica/password-generator.git
+### Getting Started
+#### Installation - Clone the repo: <br>
+     git clone https://github.com/onomatopoetica/password-generator.git
 
 ### Project Links
 [Repo Link](https://github.com/onomatopoetica/password-generator) <br>
