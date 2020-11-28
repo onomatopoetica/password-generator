@@ -6,8 +6,10 @@
 ### Table of Contents
 1. [About the Project](#About-The-Project)
 1. [Demo](#Demo)
-1. [Project Status](#Project-Status)
 1. [Getting Started](#Getting-Started)
+1. [Project Links](#Project-Links)
+1. [Project Status](#Project-Status)
+1. [License](#License)
 
 ### About the Project
 
@@ -24,9 +26,18 @@
 
 [Project Demo](https://drive.google.com/file/d/1xtw-7ligMoQPSHEXnpOM4gRbLzerBJbW/view?usp=sharing) demonstrates the web application's rendering and functionality on a on a mobile device. 
 
-#### The following is a screenshot of the password generator application and overview of its functionality: <br>
+##### The following is a screenshot of the password generator application and overview of its functionality: <br>
 
 <img src="assets/demo-screenshot.png" alt="password generator screenshot" title="screenshot" width="700" height="auto">
+
+### Getting Started - Installation  <br>
+##### Clone the repo: <br>
+    git clone https://github.com/onomatopoetica/password-generator.git
+
+#### Project Links <br>
+[Repo Link](https://github.com/onomatopoetica/password-generator) <br>
+[GitHub Project Link](https://onomatopoetica.github.io/password-generator/)
+
 
 ### Project Status
 <details>
@@ -38,10 +49,6 @@
     jendotb@gmail.com
 </details>
 
-### Getting Started - Installation  <br>
-##### Clone the repo: <br>
-    git clone https://github.com/onomatopoetica/password-generator.git
-
 #### Articles and sites which contributed toward the successful completion of this project are included below:
 
 [OWASP](https://owasp.org/www-community/password-special-characters) <br>
@@ -49,10 +56,6 @@
 [JSHint](https://jshint.com/) <br>
 [How To Style Images With Markdown Blog](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) <br>
 [W3Schools](https://www.w3schools.com/js/default.asp) <br>
-
-#### Refactor Project Repo & GitHub links: <br>
-[Repo Link](https://github.com/onomatopoetica/password-generator) <br>
-[GitHub Project Link](https://onomatopoetica.github.io/password-generator/)
 
 #### License
 ##### Distributed under the GNU General Public License v3.0. See `LICENSE` for more information.
