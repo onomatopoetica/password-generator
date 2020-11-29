@@ -57,7 +57,7 @@
 
 [JavaScript Tutorial](https://www.javascripttutorial.net/) <br>
 [OWASP](https://owasp.org/www-community/password-special-characters) <br>
-[A Smarter Way To Learn JavaScript](http://www.asmarterwaytolearn.com/) <br>
+[A Smarter Way To Learn JavaScript](https://www.asmarterwaytolearn.com/js/13.html) <br>
 [JSHint](https://jshint.com/) <br>
 [How To Style Images With Markdown Blog](https://www.xaprb.com/blog/how-to-style-images-with-markdown/) <br>
 [W3Schools](https://www.w3schools.com/js/default.asp) <br>
