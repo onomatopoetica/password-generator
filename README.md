@@ -34,7 +34,9 @@ See how it works! [Project Demo](https://drive.google.com/file/d/1xtw-7ligMoQPSH
 
 ### Getting Started
 #### Installation - Clone the repo: <br>
-     git clone https://github.com/onomatopoetica/password-generator.git
+   ```  
+   git clone https://github.com/onomatopoetica/password-generator.git
+   ```
 
 ### Project Links
 [Repo Link](https://github.com/onomatopoetica/password-generator) <br>
