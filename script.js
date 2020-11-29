@@ -1,17 +1,21 @@
 // Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
+
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-  // var copyToClipboard = document.getElementById("copytoclipboard");
+
+// var copyToClipboard = document.getElementById("copytoclipboard");
 
   passwordText.value = password;
 
 }
 
 // Add event listener to generate button
+
 generateBtn.addEventListener("click", writePassword);
 
 
@@ -32,8 +36,6 @@ generateBtn.addEventListener("click", writePassword);
 // WHEN the password is generated
 // THEN the password is either displayed in an alert or written to the page
 
-
-
 // password criteria variables
 
 var numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
@@ -47,20 +49,21 @@ var specialCharacters = ["!", "#", "$", "%", "&", '"', ",", "'", "(", ")", "*", 
 
 function getUserInput() {
 
-  // prompt password criteria 
+// prompt password criteria 
 
   var passwordLength = parseInt(prompt("How many characters should the password have (choose a number between 8 and 128)?"));
 
-  // If statement to direct user to enter a numeric value
+// If statement to direct user to enter a numeric value
 
 
-  // if a valid password length is not entered 
+// if a valid password length is not entered 
+
   if (!passwordLength) {
     alert("Please enter a numeric value!");
     // return;
   }
 
-  // once numeric value is entered, must confirm it is within the specified criteria < 8 and > 128.
+  // once numeric value is entered, must confirm it is within the specified criteria > 8 and < 128.
 
   if ((passwordLength < 8) || (passwordLength > 128)) {
     alert("Password must be between 8 and 128 characters!");
