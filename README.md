@@ -26,9 +26,9 @@
 
 ### Demo
 
-#### [See how it works!](https://drive.google.com/file/d/1M6ZmQMd07I_qhwfh6qYx8EYrVfMr41Z4/view?usp=sharing) This video clip demonstrates the application's rendering and functionality on a mobile device. 
+#### [See how it works!](https://drive.google.com/file/d/1M6ZmQMd07I_qhwfh6qYx8EYrVfMr41Z4/view?usp=sharing) This video clip demonstrates the password generator application's rendering and functionality on a mobile device. 
 
-##### The following is a screenshot of the password generator application and overview of its functionality: <br>
+##### The following is a screenshot of the application and overview of its functionality: <br>
 
 <img src="assets/demo-screenshot.png" alt="password generator screenshot" title="screenshot" width="700" height="auto">
 
