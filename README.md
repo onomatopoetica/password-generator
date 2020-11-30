@@ -26,7 +26,7 @@
 
 ### Demo
 
-#### See how it works! [Project Demo](https://drive.google.com/file/d/1xtw-7ligMoQPSHEXnpOM4gRbLzerBJbW/view?usp=sharing) shows the web application's rendering and functionality on a mobile device. 
+#### [See how it works!](https://drive.google.com/file/d/1M6ZmQMd07I_qhwfh6qYx8EYrVfMr41Z4/view?usp=sharing). This video clip demonstrates the application's rendering and functionality on a mobile device. 
 
 ##### The following is a screenshot of the password generator application and overview of its functionality: <br>
 
