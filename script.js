@@ -60,14 +60,14 @@ function getUserInput() {
 
   if (!passwordLength) {
     alert("Please enter a numeric value!");
-    // return;
+    return;
   }
 
   // once numeric value is entered, must confirm it is within the specified criteria > 8 and < 128.
 
   if ((passwordLength < 8) || (passwordLength > 128)) {
     alert("Password must be between 8 and 128 characters!");
-    // return;
+    return;
   }
 
   // else if (PasswordLength > 8 && PasswordLength < 128) {
