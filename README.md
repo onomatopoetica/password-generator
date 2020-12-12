@@ -1,4 +1,4 @@
-![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/password-generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/password-generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/01-homework?label=Watch&style=social)  
+![GitHub last commit](https://img.shields.io/github/last-commit/onomatopoetica/password-generator)  ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/onomatopoetica/password-generator)  ![GitHub watchers](https://img.shields.io/github/watchers/onomatopoetica/password-generator?label=Watch&style=social)  
 
 
 ## Password Generator Project 
