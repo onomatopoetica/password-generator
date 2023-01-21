@@ -130,6 +130,8 @@ function generatePassword() {
   return password;
 }
 
+// Copy password to clipboard and tooltip 
+
 function copyToClipboard() {
   var copyText = password;
   navigator.clipboard.writeText(copyText);
