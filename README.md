@@ -26,7 +26,7 @@
 
 ### Demo
 
-#### [See how it works!](https://drive.google.com/file/d/1M6ZmQMd07I_qhwfh6qYx8EYrVfMr41Z4/view?usp=sharing) This video clip demonstrates the password generator application's rendering and functionality on a mobile device. 
+<a href="https://onomatopoetica.github.io/password-generator/" target="_blank">Try it out!</a>
 
 ##### The following is a screenshot of the application and overview of its functionality: <br>
 
