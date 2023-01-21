@@ -7,34 +7,12 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
-// var copyToClipboard = document.getElementById("copytoclipboard");
-
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
 
 generateBtn.addEventListener("click", writePassword);
-
-
-
-// GIVEN I need a new, secure password
-// WHEN I click the button to generate a password
-// THEN I am presented with a series of prompts for password criteria
-// WHEN prompted for password criteria
-// THEN I select which criteria to include in the password
-// WHEN prompted for the length of the password
-// THEN I choose a length of at least 8 characters and no more than 128 characters
-// WHEN prompted for character types to include in the password
-// THEN I choose lowercase, uppercase, numeric, and/or special characters
-// WHEN I answer each prompt
-// THEN my input should be validated and at least one character type should be selected
-// WHEN all prompts are answered
-// THEN a password is generated that matches the selected criteria
-// WHEN the password is generated
-// THEN the password is either displayed in an alert or written to the page
 
 // password criteria variables
 
@@ -49,14 +27,14 @@ var specialCharacters = ["!", "#", "$", "%", "&", '"', ",", "'", "(", ")", "*", 
 
 function getUserInput() {
 
-// prompt password criteria 
+  // prompt password criteria
 
   var passwordLength = parseInt(prompt("How many characters should the password have (choose a number between 8 and 128)?"));
 
-// If statement to direct user to enter a numeric value
+  // If statement to direct user to enter a numeric value
 
 
-// if a valid password length is not entered 
+  // if a valid password length is not entered
 
   if (!passwordLength) {
     alert("Please enter a numeric value!");
@@ -70,10 +48,7 @@ function getUserInput() {
     return;
   }
 
-  // else if (PasswordLength > 8 && PasswordLength < 128) {
-  //   return;
-  // } 
-  // prompt user to select criteria for password. 
+  // prompt user to select criteria for password.
 
   // does the password require numbers?
 
@@ -95,8 +70,6 @@ function getUserInput() {
 
   if (!confirmLowerCase && !confirmUpperCase && !confirmNumbers && !confirmSpecialCharacters) {
     alert("The password must contain at least one special, numeric, lowercase, or uppercase character!");
-    // return;
-
   }
 
   // combine user input to generate password
@@ -122,31 +95,31 @@ function generatePassword() {
   console.log(passwordOptions)
 
   if (options.special) {
-        for (i = 0; i < specialCharacters.length; ++i) {
-          passwordOptions.push(specialCharacters[i]);
-      }
-  } 
+    for (i = 0; i < specialCharacters.length; ++i) {
+      passwordOptions.push(specialCharacters[i]);
+    }
+  }
   if (options.numbers) {
-      for (i = 0; i < numbers.length; ++i) {
+    for (i = 0; i < numbers.length; ++i) {
       passwordOptions.push(numbers[i]);
-      }
+    }
   }
   if (options.lower) {
-      for (i = 0; i < lowerCase.length; ++i) {
+    for (i = 0; i < lowerCase.length; ++i) {
       passwordOptions.push(lowerCase[i]);
-      }
+    }
   }
   if (options.upper) {
-      for (i = 0; i < upperCase.length; ++i) {
+    for (i = 0; i < upperCase.length; ++i) {
       passwordOptions.push(upperCase[i]);
-      }
+    }
   }
 
   var completePassword = [];
 
   for (let i = 0; i < options.length; ++i) {
-      var randomSelection = Math.floor(Math.random() * Math.floor(passwordOptions.length));
-       completePassword.push(passwordOptions[randomSelection])
+    var randomSelection = Math.floor(Math.random() * Math.floor(passwordOptions.length));
+    completePassword.push(passwordOptions[randomSelection])
   }
 
   console.log(completePassword)
@@ -155,51 +128,18 @@ function generatePassword() {
   console.log(password)
 
   return password;
-  // document.getElementById("password").textContent = password;
 }
 
-// generateBtn.addEventListener('click', generatePassword);
+function copyToClipboard() {
+  var copyText = password;
+  navigator.clipboard.writeText(copyText);
 
-// var password = "";
+  var tooltip = document.getElementById("tooltip");
+  tooltip.innerHTML = "Password Copied!"
+  console.log("copyText", copyText);
+}
 
-// function copytoClipboard() {
-
-// document.getElementById("display").select();
-
-// document.execCommand("Copy");
-
-// alert("Your password has now been copied to the clipboard");
-
-// }
-
-
-// copyToClipBoardButton.addEventListener('click', copytoClipboard);
-
-// return passwordCriteria;
-
-
-// function generatePassword(a, b){
-//   console.log(a)
-// }
-// getUserInput()
-
-// var criteria = getUserInput();
-// console.log(criteria);
-
-
-// if (confirmNumbers) {
-//   for (var i = 0; i < 10; i++) {
-//   var num = Math.floor(Math.random() * 9) +  1;
-//     // Display in console
-//   console.log(num);
-//   }
-// }
-
-
-  // console.log("length? ", promptLength)
-  // console.log("numbers? ", confirmNumbers)
-  // console.log("special characters? ", confirmSpecialCharacters);
-  // console.log("uppercase? ", confirmUpperCase);
-  // console.log("lowercase? ", confirmLowerCase);
-
-// }
+function outTooltip() {
+  var tooltip = document.getElementById("tooltip");
+  tooltip.innerHTML = "Copy To Clipboard";
+}

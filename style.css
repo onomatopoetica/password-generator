@@ -23,6 +23,10 @@ body {
   background-color: #f9fbfd;
 }
 
+textarea:focus {
+  outline-color: darkgray;
+}
+
 /* padding for UI page top, left and right borders */
 
 .wrapper {
@@ -105,7 +109,11 @@ header {
   cursor: pointer;
 }
 
-button[disabled] {
+.btn:hover {
+  background-color:hsl(206, 17%, 28%);
+}
+
+.btn:disabled {
   cursor: default;
   background: #c0c7cf;
 }
@@ -113,8 +121,6 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
-
 
 #password {
   -webkit-appearance: none;
@@ -135,6 +141,44 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #cfc3c0;
+  color: hsl(206, 17%, 28%);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 90;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  /* left: 50%; */
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #cfc3c0 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* media query for responsive rendering on different sized screens */
